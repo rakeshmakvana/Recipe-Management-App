@@ -1,0 +1,67 @@
+.formContainer {
+    display: flex;
+    justify-content: center;
+    color: var(--second-color);
+}
+
+.formContainer h2 {
+    font-size: 24px;
+    margin: 20px 0 25px 0;
+    color: var(--second-color);
+}
+
+.registerFormLogo img {
+    width: 120px;
+}
+
+.formContainer .formInput {
+    padding: 10px;
+    width: 500px;
+    color: var(--second-color);
+}
+
+.formContainer a {
+    display: block;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .formContainer .formInput {
+        width: 250px;
+    }
+}
+
+.loginFormContainer {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.formTitle {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.formInput {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.ant-input-affix-wrapper {
+    background-color: #f0f0f0;
+}
+
+.submitButton {
+    width: 100%;
+}
+
+.registerLink {
+    margin-top: 10px;
+    text-align: center;
+}

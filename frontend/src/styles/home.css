@@ -1,0 +1,113 @@
+.recipeCard img {
+    height: 300px;
+    object-fit: cover;
+    background-position: center;
+}
+
+.recipeDetailsModal .ant-modal-content {
+    border-radius: 8px;
+    padding: 24px;
+    background-color: #f8f9fa;
+}
+
+.recipeModalContent {
+    padding: 16px;
+    color: #333;
+}
+
+.sectionTitle {
+    color: #3b3b3b;
+    margin-bottom: 8px;
+}
+
+.ingredientsList .ant-list-item {
+    padding-left: 8px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.ant-divider-horizontal {
+    margin: 16px 0;
+}
+
+@media (max-width: 768px) {
+    .recipeDetailsModal .ant-modal-content {
+        padding: 16px;
+    }
+
+    .recipeModalContent {
+        padding: 8px;
+    }
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.sectionHeading {
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+}
+
+.enhancedRecipeCard {
+    background: black;
+    color: #fff;
+    border-radius: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.enhancedRecipeCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+.recipeImage {
+    border-radius: 20px 20px 0 0;
+    height: 220px;
+    object-fit: cover;
+}
+
+.cardTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.enhancedRecipeCard .ant-card-meta-description {
+    font-size: 1rem;
+    color: #ddd;
+}
+
+.ant-card-actions>li {
+    margin: 0;
+    padding: 0;
+}
+
+button.ant-btn-primary {
+    background-color: #000;
+    border-color: #000;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+@media (max-width: 768px) {
+    .recipeImage {
+        height: 160px;
+    }
+
+    .cardTitle {
+        font-size: 1.3rem;
+    }
+
+    .enhancedRecipeCard .ant-card-meta-description {
+        font-size: 0.9rem;
+    }
+}
